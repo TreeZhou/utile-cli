@@ -1,0 +1,24 @@
+{
+  "name": "utile-cli",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "bin": {
+    "u": "bin/index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "inquirer": "^7.1.0"
+  },
+  "dependencies": {
+    "commander": "^5.0.0",
+    "cross-spawn": "^7.0.3",
+    "fs": "^0.0.1-security",
+    "path": "^0.12.7",
+    "shelljs": "^0.8.4"
+  }
+}
